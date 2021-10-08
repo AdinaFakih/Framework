@@ -1,4 +1,5 @@
 package firstProjectApp;
+
 import java.util.ResourceBundle;
 
 public class App{
@@ -9,8 +10,8 @@ public class App{
 		String password = rb.getString("password");
 		
 		if(in_user.equals(userName) && in_pwd.equals(password))
-			return 1;
+			return 1;  //pass
 		else 
-			return 0;
+			return 0;  //fail
 	}
 }
